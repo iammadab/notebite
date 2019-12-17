@@ -15,9 +15,17 @@ cli.use({
 	}
 })
 
-cli.use("folder", createFolder)
-cli.use("note", createNote)
-cli.use("list", listFolder)
-cli.use("open", openNote)
+cli.action("folder", passArg(createFolder))
+cli.action("note", passArg(createNote))
+cli.action("list", passArg(listFolder))
+cli.action("open", passArg(openNote))
 
 cli.parse(process.argv)
+
+
+
+function passArg(fn){
+	return function({ locator }){
+		return fn(locator)
+	}
+}
