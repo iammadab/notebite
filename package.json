@@ -10,5 +10,8 @@
     "notes"
   ],
   "author": "Wisdom Ogwu (@iammadab)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@iammadab/terminaljs": "^2.4.2"
+  }
 }
