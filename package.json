@@ -15,6 +15,7 @@
   "author": "Wisdom Ogwu (@iammadab)",
   "license": "ISC",
   "dependencies": {
-    "@iammadab/terminaljs": "^2.4.2"
+    "@iammadab/terminaljs": "^2.4.2",
+    "colors": "^1.4.0"
   }
 }
