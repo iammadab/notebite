@@ -10,7 +10,7 @@ const {
 cli.use({
 	commands: {
 		folder: ["locator"],
-		file: ["locator"],
+		note: ["locator"],
 		list: ["locator"],
 		open: ["locator"]
 	}
